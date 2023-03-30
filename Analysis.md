@@ -30,7 +30,19 @@
 
 - In the first two neural network models, the architecture consists of three hidden layers with 20 units each and the activation function is leaky ReLU. The output layer is a single unit with a sigmoid activation function, which is appropriate for a binary classification problem like the one presented. The input dimension is 36.  The third neural network model has a different architecture, with two hidden layers and 22 units each, also using the leaky ReLU activation function. 
 
+![App Screenshot](https://raw.githubusercontent.com/gnimeth/Deep_learning/main/Output/Screenshot%202023-03-30%20134456.png)
+
+![App Screenshot](https://raw.githubusercontent.com/gnimeth/Deep_learning/main/Output/Screenshot%202023-03-30%20134513.png)
+
+![App Screenshot](https://raw.githubusercontent.com/gnimeth/Deep_learning/main/Output/Screenshot%202023-03-30%20134531.png)
+
 - The highest accuracy achieved among the three neural network models is 72.59%, which is below the target model performance of 75%. Therefore, the target model performance was not achieved with these models.
+
+![App Screenshot](https://raw.githubusercontent.com/gnimeth/Deep_learning/main/Output/Screenshot%202023-03-30%20134552.png)
+
+![App Screenshot](https://raw.githubusercontent.com/gnimeth/Deep_learning/main/Output/Screenshot%202023-03-30%20134609.png)
+
+![App Screenshot](https://raw.githubusercontent.com/gnimeth/Deep_learning/main/Output/Screenshot%202023-03-30%20134624.png)
 
 - An attempted optimization approach for the model was to adjust the bin sizes of the continuous variables. This approach involved changing the binning some of the continuous variables. However, this did not result in a substantial improvement in the model's performance.  Another approach was to drop more columns from the input data that were deemed to be less relevant or redundant. The "EIN" and "NAME" columns were already removed, but there were other columns that could be dropped as well. For example, the "SPECIAL_CONSIDERATIONS" column contained mostly "N" values, so it was dropped from the input data but did not help with improving the model's performance.
 
