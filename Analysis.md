@@ -36,9 +36,9 @@
 
 # Summary
 
-- This report describes the development and optimization of a binary classifier using machine learning and neural networks to aid in selecting the most promising funding applicants for the nonprofit organization Alphabet Soup. The input data consists of 36 features, and three neural network models were built with different architectures using the leaky ReLU activation function. However, the highest accuracy achieved among the models was 72.59%, which is below the target model performance of 75%.
+- The deep learning model developed for Alphabet Soup's funding applicant selection problem achieved an accuracy of 72.59%, which is below the target accuracy of 75%. Two optimization approaches were attempted, including adjusting bin sizes and dropping more columns, but these did not result in a significant improvement in the model's performance.
 
-- To optimize the model, bin sizes of the continuous variables were adjusted, but this approach did not result in a significant improvement in model performance. Another approach was to drop more columns from the input data, such as the "SPECIAL_CONSIDERATIONS" column, which contained mostly "N" values. However, this did not help with improving the model's performance. Further optimization techniques may be necessary to achieve the desired model performance.
+- To address this classification problem, a different model approach could be considered, such as a gradient boosting model. Gradient boosting is a powerful machine learning technique that can handle high-dimensional and complex datasets, making it an ideal candidate for this problem. Additionally, it can handle both categorical and continuous variables without the need for binning. Gradient boosting models work by combining multiple decision trees to make predictions, with each tree learning and improving on the errors of the previous tree. This can result in highly accurate predictions, making it a promising alternative to a neural network model.
 
 
 
